@@ -1,35 +1,34 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import "../styles/navbar.css"
 
 function navbar() {
   return (
-    <nav className="p-4 shadow-md">
-      <ul className="flex justify-end space-x-10 w-full pr-20">
+    <nav className="p-4 shadow-md fixed w-full top-0 backdrop-blur-md z-50">
+      <ul className="flex justify-end space-x-10 w-full pr-20 ">
         <li>
-          <Link to="/" className="nav-link">
+          <a href="#home" className="nav-link">
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/about" className="nav-link">
+          <a href="#about" className="nav-link">
             About
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/skills" className="nav-link">
+          <a href="#skills" className="nav-link">
             Skills
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/project" className="nav-link">
+          <a href="#project" className="nav-link">
             Project
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/contact" className="nav-link">
+          <a href="/contact" className="nav-link">
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
