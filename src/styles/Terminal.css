@@ -1,0 +1,40 @@
+.terminal-container {
+  width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  background-color: #fc9df4;
+  font-family: monospace;
+}
+
+.terminal-header {
+  background-color: #1e1e1e;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.terminal-body {
+  color: #270249;
+  padding: 16px;
+  font-size: 14px;
+  min-height: 150px;
+}
+
+.cursor {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
