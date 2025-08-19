@@ -1,6 +1,6 @@
 import React from 'react'
-import Terminal from '../components/Terminal';
 import maPhoto from '../assets/me.jpg'
+import CodeFile from '../components/CodeFile';
 
 function About() {
   return (
@@ -20,7 +20,7 @@ function About() {
               className="w-80 h-80 rounded-full"
             />
         </div>
-        <Terminal />
+        <CodeFile />
       </div>
     </div>
   );

@@ -21,10 +21,7 @@ function Home() {
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
               Student in computer science with a creative mind
             </p>
-            <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-8">
-              I create beautiful digital experiences that blend creativity with functionality. 
-              Welcome to my colorful corner of the internet! ✨
-            </p>
+            
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => scrollToSection('portfolio')}
