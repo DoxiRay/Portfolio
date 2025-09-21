@@ -22,7 +22,12 @@ function navbar() {
         </li>
         <li>
           <a href="#project" className="nav-link">
-            Project
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#experiences" className="nav-link">
+            Experiences
           </a>
         </li>
         <li>
