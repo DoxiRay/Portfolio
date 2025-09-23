@@ -6,6 +6,7 @@ import Skills from './pages/Skills'
 import Project from './pages/Project'
 import Contact from './pages/Contact'
 import Navbar from './components/navbar';
+import Experiences from './pages/Experiences';
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
       </section>
       <section id="projects">
         <Project />
+      </section>
+      <section id="exeriences">
+        <Experiences />
       </section>
       <section id="contact">
         <Contact />

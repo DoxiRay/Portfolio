@@ -3,3 +3,6 @@
 .nav-link:hover{
     color: rgb(216, 138, 151);
 }
+html {
+  scroll-behavior: smooth;
+}
