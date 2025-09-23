@@ -3,9 +3,9 @@ import {
   Mail,
   Phone,
   MapPin,
-  Facebook,
-  Instagram,
-  Linkedin,
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
 } from "lucide-react";
 
 export default function Contact() {
@@ -15,17 +15,17 @@ export default function Contact() {
       className="bg-gradient-to-r from-pink-100 to-purple-100 px-6 py-12 mt-16"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
-        {/* Section gauche */}
+        {/* Left section */}
         <div>
           <h3 className="text-2xl font-bold text-pink-600">
             Rasamimanana Eudoxie
           </h3>
           <p className="text-gray-600 mt-2">
-            Étudiante en informatique, passionnée par le design ✨
+            Computer Science student, passionate about design ✨
           </p>
         </div>
 
-        {/* Section contact */}
+        {/* Contact section */}
         <div>
           <h4 className="text-lg font-semibold text-purple-600 mb-4">
             Contact
@@ -44,37 +44,37 @@ export default function Contact() {
           </ul>
         </div>
 
-        {/* Section réseaux sociaux */}
+        {/* Social media section */}
         <div>
           <h4 className="text-lg font-semibold text-purple-600 mb-4">
-            Suivez-moi
+            Follow Me
           </h4>
           <div className="flex justify-center md:justify-start gap-4">
             <a
               href="#"
               className="text-pink-500 hover:text-pink-700 transition"
             >
-              <Facebook className="w-6 h-6" />
+              <FacebookIcon className="w-6 h-6" />
             </a>
             <a
               href="#"
               className="text-pink-500 hover:text-pink-700 transition"
             >
-              <Instagram className="w-6 h-6" />
+              <InstagramIcon className="w-6 h-6" />
             </a>
             <a
               href="#"
               className="text-pink-500 hover:text-pink-700 transition"
             >
-              <Linkedin className="w-6 h-6" />
+              <LinkedinIcon className="w-6 h-6" />
             </a>
           </div>
         </div>
       </div>
 
-      {/* Ligne du bas */}
+      {/* Bottom line */}
       <div className="border-t border-pink-200 mt-8 pt-6 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} Eudoxie • Tous droits réservés
+        © {new Date().getFullYear()} Eudoxie • All rights reserved
       </div>
     </footer>
   );

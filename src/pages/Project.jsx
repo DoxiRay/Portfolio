@@ -1,30 +1,41 @@
 import React from "react";
-import astronaute from "../assets/astronaute.png";
+import portfolio from "../assets/portfolio.png";
+import ecommerce from "../assets/ecommerce.png";
+import everyday from "../assets/myeveryday.png";
+import buble from "../assets/buble.jpeg";
 
 export default function Project() {
   const projects = [
     {
-      title: "Book'Tiako",
+      title: "Bio-Bazar",
       description:
-        "📚 A digital library that promotes Malagasy books and culture.",
-      image: astronaute,
-      technologies: ["React", "Symfony", "TailwindCSS"],
+        "An e-commerce website for organic products with secure payments and modern UI.",
+      image: ecommerce,
+      technologies: ["React", "Firebase", "TailwindCSS", "Stripe"],
     },
     {
-      title: "Art Market",
+      title: "My Portfolio",
       description:
-        "🎨 A mobile app for selling and discovering Malagasy handmade art.",
-      image: astronaute,
-      technologies: ["React Native", "Firebase", "Expo"],
+        "A personal portfolio website to showcase my projects, skills, and experiences.",
+      image: portfolio,
+      technologies: ["React", "TailwindCSS"],
     },
     {
-      title: "Recipe Hub",
+      title: "Fruitea",
       description:
-        "🍰 A web app to explore and share cooking recipes with friends.",
-      image: astronaute,
-      technologies: ["Vue.js", "Node.js", "MongoDB"],
+        "A mobile application for ordering customizable bubble tea with different toppings and online payments.",
+      image: buble,
+      technologies: ["React Native", "Firebase", "Expo", "Stripe"],
+    },
+    {
+      title: "Myeveryday",
+      description:
+        "A mobile productivity app featuring a to-do list, Pomodoro timer, and weather tracking to help users stay organized and focused.",
+      image: everyday,
+      technologies: ["Flutter"],
     },
   ];
+
 
   return (
     <div id="projects" className="min-h-screen px-4 pt-20">

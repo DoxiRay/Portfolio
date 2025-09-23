@@ -1,29 +1,30 @@
 import React from "react";
 
 function Experiences() {
-  const experiences = [
-    {
-      poste: "Stagiaire en Développement Web",
-      entreprise: "Cap's Digit",
-      periode: "Juillet 2024 - Septembre 2024",
-      description:
-        "Développement d’applications Symfony et React, intégration API et gestion base de données.",
-    },
-    {
-      poste: "Assistante IT",
-      entreprise: "École ESTI",
-      periode: "Mars 2023 - Juin 2023",
-      description:
-        "Support technique et maintenance, aide aux étudiants pour l’utilisation des outils numériques.",
-    },
-    {
-      poste: "Projet Personnel",
-      entreprise: "Book'Tiako",
-      periode: "Depuis 2024",
-      description:
-        "Application pour digitaliser et promouvoir les livres malgaches.",
-    },
-  ];
+const experiences = [
+  {
+    position: "Web Development Apprentice",
+    company: "Cap's Digit",
+    period: "November 2024 - April 2025",
+    description:
+      "Developed web applications using Symfony and React, integrated APIs, and managed databases.",
+  },
+  {
+    position: "Web Development Intern",
+    company: "École ESTI",
+    period: "September 2023 - March 2024",
+    description:
+      "Built a website with React.js and explored graphic design basics using Figma.",
+  },
+  {
+    position: "Discovery Internship",
+    company: "Etech",
+    period: "July 18, 2022 - July 21, 2022",
+    description:
+      "Introduction to web development during a 3-day immersion program.",
+  },
+];
+
 
   return (
     <div id="experiences" className="min-h-screen px-4 pt-20 bg-pink-50">
@@ -43,10 +44,10 @@ function Experiences() {
               {/* Carte expérience */}
               <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition duration-300">
                 <h3 className="text-2xl font-semibold text-gray-800">
-                  {exp.poste}
+                  {exp.position}
                 </h3>
                 <p className="text-pink-500 font-medium">
-                  {exp.entreprise} • {exp.periode}
+                  {exp.company} • {exp.period}
                 </p>
                 <p className="mt-2 text-gray-600">{exp.description}</p>
               </div>
