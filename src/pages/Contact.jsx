@@ -2,10 +2,7 @@ import React from "react";
 import {
   Mail,
   Phone,
-  MapPin,
-  FacebookIcon,
-  InstagramIcon,
-  LinkedinIcon,
+  MapPin
 } from "lucide-react";
 
 export default function Contact() {
@@ -15,7 +12,6 @@ export default function Contact() {
       className="bg-gradient-to-r from-pink-100 to-purple-100 px-6 py-12 mt-16"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
-        {/* Left section */}
         <div>
           <h3 className="text-2xl font-bold text-pink-600">
             Rasamimanana Eudoxie
@@ -46,7 +42,6 @@ export default function Contact() {
 
       </div>
 
-      {/* Bottom line */}
       <div className="border-t border-pink-200 mt-8 pt-6 text-center text-gray-500 text-sm">
         © {new Date().getFullYear()} Eudoxie • All rights reserved
       </div>

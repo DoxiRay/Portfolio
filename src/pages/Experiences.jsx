@@ -38,7 +38,7 @@ const experiences = [
         <div className="relative border-l-4 border-pink-400 ml-6">
           {experiences.map((exp, index) => (
             <div key={index} className="mb-12 ml-6 relative">
-              {/* Point de la timeline */}
+              {/* Point */}
               <span className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 border-4 border-pink-100 shadow-lg"></span>
 
               {/* Carte expérience */}

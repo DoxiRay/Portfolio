@@ -19,16 +19,13 @@ function Skills() {
 
       {/* Contenu */}
       <div className="flex flex-col md:flex-row items-center md:justify-center gap-10">
-        {/* Terminal */}
         <div className="w-full md:w-1/2">
           <div className="rounded-3xl overflow-hidden bg-white">
             <Terminal className="w-full max-w-full" />
           </div>
         </div>
 
-        {/* Colonne bouton + image */}
         <div className="relative flex flex-col items-center gap-6 w-full md:w-1/2 lg:w-2/5">
-          {/* Bouton */}
           <a
             href={cvFile}
             download
@@ -47,7 +44,6 @@ function Skills() {
             <span className="text-sm sm:text-base md:text-lg">Download CV</span>
           </a>
 
-          {/* Image responsive */}
           <img
             src={astronaute}
             alt="Astronaute"

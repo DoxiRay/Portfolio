@@ -26,7 +26,7 @@ export default function Terminal() {
       } else {
         setOutput((prev) => [
           ...prev,
-          `Downloading skill: ${skills[currentLine]}... ██████████ 100%`,
+          `Downloading skill: ${skills[currentLine]}... █████████ 100%`,
         ]);
         setProgress(0);
         setCurrentLine((line) => line + 1);
@@ -46,7 +46,14 @@ export default function Terminal() {
       </div>
 
       <div className="terminal-body">
-        <pre style={{ color: "#6403a1" }}>
+        <pre
+          style={{
+            color: "#6403a1",
+            fontSize: "clamp(0.75rem, 2vw, 1rem)",
+            lineHeight: "1.4",
+            wordBreak: "break-word",
+          }}
+        >
           {output.map((line, index) => (
             <div key={index}>{line}</div>
           ))}
