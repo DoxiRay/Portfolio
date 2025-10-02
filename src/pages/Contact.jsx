@@ -44,32 +44,6 @@ export default function Contact() {
           </ul>
         </div>
 
-        {/* Social media section */}
-        <div>
-          <h4 className="text-lg font-semibold text-purple-600 mb-4">
-            Follow Me
-          </h4>
-          <div className="flex justify-center md:justify-start gap-4">
-            <a
-              href="#"
-              className="text-pink-500 hover:text-pink-700 transition"
-            >
-              <FacebookIcon className="w-6 h-6" />
-            </a>
-            <a
-              href="#"
-              className="text-pink-500 hover:text-pink-700 transition"
-            >
-              <InstagramIcon className="w-6 h-6" />
-            </a>
-            <a
-              href="#"
-              className="text-pink-500 hover:text-pink-700 transition"
-            >
-              <LinkedinIcon className="w-6 h-6" />
-            </a>
-          </div>
-        </div>
       </div>
 
       {/* Bottom line */}

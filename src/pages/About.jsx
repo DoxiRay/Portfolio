@@ -17,18 +17,20 @@ function About() {
       {/* Contenu principal */}
       <div className="flex flex-col md:flex-row items-center md:justify-center gap-10">
         {/* Photo */}
-        <div className="flex-shrink-0 w-110 h-110 bg-gradient-to-r from-pink-300 to-purple-400 rounded-full mb-6 md:mb-0 flex items-center justify-center">
-          <img
-            src={maPhoto}
-            alt="My picture"
-            className="w-102 h-102 rounded-full object-cover"
-          />
+        <div className="rounded-3xl overflow-hidden bg-white">
+          <div className="flex-shrink-0 w-110 h-110 bg-gradient-to-r from-pink-300 to-purple-400 rounded-full mb-6 md:mb-0 flex items-center justify-center">
+            <img
+              src={maPhoto}
+              alt="My picture"
+              className="w-102 h-102  rounded-full object-cover"
+            />
+          </div>
         </div>
 
         {/* CodeFile */}
         {/* CodeFile */}
         <div className="w-full md:w-1/2">
-          <div className="rounded-3xl shadow-xl overflow-hidden bg-white">
+          <div className="rounded-3xl overflow-hidden bg-white">
             <CodeFile className="w-full h-80 md:h-96" />
           </div>
         </div>
